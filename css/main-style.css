@@ -1,0 +1,527 @@
+body {
+  background-color: #f1f0f0;
+}
+body #body {
+  padding: 0px 20px;
+  position: relative;
+}
+body #body .page-heading {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.follow-card {
+  position: absolute;
+  top: 855px;
+  width: 20vw;
+}
+.follow-card .header {
+  color: #808080;
+  padding: 20px 0px 20px 20px;
+  font-weight: 500;
+}
+.follow-card .follow-card-list {
+  padding: 0px;
+}
+.follow-card .follow-card-list .follow-list-item {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 18px 10px 0px 20px;
+}
+.follow-card .follow-card-list .follow-list-item .img-name {
+  display: flex;
+}
+.follow-card .follow-card-list .follow-list-item .img-and-point {
+  position: relative;
+  margin-right: 0px;
+}
+.follow-card .follow-card-list .follow-list-item .img-and-point img {
+  width: 60px;
+  margin-right: 10px;
+}
+.follow-card .follow-card-list .follow-list-item .img-and-point .point {
+  border-radius: 50%;
+  position: absolute;
+  left: 45px;
+  bottom: 3px;
+  width: 6px;
+  height: 6px;
+  background-color: red;
+}
+.follow-card .follow-card-list .follow-list-item .img-and-point .active {
+  background-color: green;
+}
+.follow-card .follow-card-list .follow-list-item .img-and-point .not-active {
+  background-color: red;
+}
+.follow-card .follow-card-list .follow-list-item .name-and-occupation {
+  margin-right: 18px;
+}
+.follow-card .follow-card-list .follow-list-item .name-and-occupation .name {
+  font-size: 16px;
+  font-weight: 500;
+}
+.follow-card .follow-card-list .follow-list-item .name-and-occupation .occupation {
+  color: #a5a4a4;
+}
+.follow-card .follow-card-list .follow-list-item .name-and-occupation p {
+  margin-bottom: 0px;
+}
+.follow-card .follow-card-list .follow-list-item .follow-btn {
+  background-color: #259cf1;
+  border: none;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: small;
+  margin-right: 10px;
+  padding: 3px 8px;
+}
+
+.friend-card-container {
+  position: absolute;
+  left: 360px;
+  top: 600px;
+  width: 77%;
+}
+.friend-card-container .friend-card-list {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 40px;
+}
+.friend-card-container .friend-card-list .friend-card-list-item {
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.friend-card-container .friend-card-list .friend-card-list-item .img-text-container {
+  display: flex;
+  align-items: center;
+}
+.friend-card-container .friend-card-list .friend-card-list-item .img-text-container .friend-card-img {
+  padding: 10px;
+  width: 135px;
+}
+.friend-card-container .friend-card-list .friend-card-list-item .img-text-container .friend-card-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+.friend-card-container .friend-card-list .friend-card-list-item .img-text-container .friend-card-occupation {
+  font-size: 18px;
+  color: rgb(157, 156, 156);
+}
+
+.friend-list-card {
+  position: absolute;
+  top: 1364px;
+  width: 20vw;
+}
+.friend-list-card .friend-list-header {
+  align-items: center;
+  color: #a09e9e;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 20px;
+}
+.friend-list-card .friend-list-header .see-more-btn {
+  background-color: #259cf1;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 2px 8px;
+}
+.friend-list-card .friend-list-separator {
+  margin: 0px;
+}
+.friend-list-card .friends-images img {
+  width: 60px;
+  margin: 10px 0px 10px 10px;
+}
+.login-form-container {
+  align-items: center;
+  background-color: #259cf1;
+  display: flex;
+  height: 100vh;
+  scroll-behavior: auto;
+  justify-content: center;
+}
+.login-form-container .login-form {
+  background-color: #fcfcfc;
+  border-radius: 10px;
+  padding: 30px 40px;
+  width: 25vw;
+}
+.login-form-container .login-form #input-email-error {
+  color: red;
+  margin-top: 5px;
+}
+.login-form-container .login-form #input-password-error {
+  color: red;
+  margin-top: 5px;
+}
+.login-form-container .login-form .form-btn {
+  text-align: center;
+}
+.login-form-container .login-form .form-btn .login-btn {
+  background-color: #259cf1;
+  border: none;
+}
+
+.navbar {
+  align-items: center;
+  background-color: #0c95e5;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.navbar .logo {
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: 80px;
+  margin-bottom: 10px;
+}
+
+.navbar .logo sup {
+  top: -2em;
+  font-size: 14px;
+  right: 1em;
+}
+
+.navbar .nav-icons {
+  align-items: center;
+  display: flex;
+  padding-top: 10px;
+}
+
+.navbar .nav-icons li {
+  list-style: none;
+}
+
+.navbar .nav-icons .icon {
+  font-size: 25px;
+}
+
+.navbar .nav-icons .icon-container {
+  margin: 0 20px;
+}
+
+.navbar .nav-icons .person-details {
+  align-items: center;
+  display: flex;
+}
+
+.navbar .nav-icons .person-details li img {
+  width: 50px;
+}
+
+.navbar .nav-icons .person-details li {
+  margin-right: 10px;
+}
+
+.navbar .nav-icons .person-details .logout-btn {
+  display: none;
+  position: absolute;
+  top: 12vh;
+  right: 1vw;
+}
+
+
+.photos-section {
+  position: absolute;
+  top: 600px;
+  left: 400px;
+  width: 75%;
+}
+.photos-section .add-photo-btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 40px;
+}
+.photos-section .photo-list {
+  background-color: #ffffff;
+  grid-template-columns: repeat(4, auto);
+  padding: 20px;
+  margin: 0px;
+}
+.photos-section .photo-list img {
+  width: 299px;
+  height: 200px;
+  margin-bottom: 2px;
+}
+.photos-section .photo-list .photo-list-item {
+  list-style: none;
+}
+.photos-section .photo-list .photo-list-item img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 2px;
+}
+
+.post-container {
+  left: 400px;
+  position: absolute;
+  top: 600px;
+  width: 75%;
+}
+.post-container .post-btn-container {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 15px;
+}
+.post-container .post-btn-container .post-btn {
+  background-color: #259cf1;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+.post-container .post-form {
+  background-color: #fcfcfc;
+  border-radius: 20px;
+  padding: 20px 40px;
+}
+.post-container .post-form .error {
+  color: #ff0000;
+  margin-top: 5px;
+}
+.post-container .post-list .post-list-item {
+  list-style: none;
+}
+.post-container .post-card-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.post-container .post-card-container .post-line {
+  background-color: #dad8d8;
+  display: flex;
+  justify-content: flex-end;
+  left: 24px;
+  position: relative;
+  width: 5px;
+  z-index: -1;
+}
+.post-container .post-card-container .avatar-and-line {
+  align-items: center;
+  display: flex;
+  height: 50px;
+  padding-top: 63px;
+}
+.post-container .post-card-container .avatar-and-line .avatar {
+  margin-top: 0px;
+  width: 45px;
+}
+.post-container .post-card-container .avatar-and-line .avatar-line {
+  border-top: 3px solid #c8c6c6;
+  margin: 0 3px;
+  width: 20px;
+}
+.post-container .post-card-container .post-card {
+  background-color: #ffffff;
+  margin: 40px 0 33px 0;
+  width: 95%;
+}
+.post-container .post-card-container .post-card .post-heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+.post-container .post-card-container .post-card .post-heading .user-details .name {
+  font-size: 18px;
+}
+.post-container .post-card-container .post-card .post-heading .user-details .time {
+  color: #abaaaa;
+}
+.post-container .post-card-container .post-card .post-heading .user-details p {
+  margin: 0px;
+}
+.post-container .post-card-container .post-card .post-heading .menu-icon {
+  color: #abaaaa;
+  font-size: 25px;
+}
+.post-container .post-card-container .post-card .card-image img {
+  height: 500px;
+  width: 100%;
+}
+.post-container .post-card-container .post-card .card-footer .title-description {
+  padding: 20px 20px;
+}
+.post-container .post-card-container .post-card .card-footer .title-description .title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.post-container .post-card-container .post-card .card-footer .title-description .description {
+  color: #abaaaa;
+  margin: 0;
+}
+.post-container .post-card-container .post-card .card-footer hr {
+  margin: 0;
+}
+.post-container .post-card-container .post-card .card-footer .footer-buttons {
+  display: flex;
+  padding: 20px 20px;
+}
+.post-container .post-card-container .post-card .card-footer .footer-buttons .button-separator {
+  border-right: 1px solid #808080;
+  height: 30px;
+  margin: 0 15px;
+}
+.post-container .post-card-container .post-card .card-footer .footer-buttons .like,
+.post-container .post-card-container .post-card .card-footer .footer-buttons .comments,
+.post-container .post-card-container .post-card .card-footer .footer-buttons .share {
+  align-items: center;
+  color: #808080;
+  display: flex;
+  font-size: 18px;
+}
+.post-container .post-card-container .post-card .card-footer .footer-buttons .like .button-icon i,
+.post-container .post-card-container .post-card .card-footer .footer-buttons .comments .button-icon i,
+.post-container .post-card-container .post-card .card-footer .footer-buttons .share .button-icon i {
+  margin-right: 12px;
+}
+.post-container .post-card-container .post-card .card-footer .footer-buttons .like p,
+.post-container .post-card-container .post-card .card-footer .footer-buttons .comments p,
+.post-container .post-card-container .post-card .card-footer .footer-buttons .share p {
+  margin-bottom: 0px;
+}
+
+.card-container {
+  position: absolute;
+  top: 22vh;
+  width: 20vw;
+}
+.card-container .card-text {
+  text-align: center;
+}
+.card-container .card-text .followers-info {
+  display: flex;
+  justify-content: space-between;
+}
+.card-container .card-text .followers-info div {
+  margin: 20px 10px 0 10px;
+}
+.card-container .card-text .followers-info div .number {
+  color: #259cf1;
+  font-size: 20px;
+}
+.card-container .card-text .card-btn {
+  background-color: #ffffff;
+  border: 1px solid #898787;
+  color: #747272;
+  margin-top: 25px;
+  padding: 5px 10px;
+}
+.card-container .card-text .card-btn .profile-icon {
+  margin-right: 5px;
+}
+
+.profile-section {
+  width: 100%;
+}
+.profile-section .head-image img {
+  width: 100%;
+}
+.profile-section .link {
+  background-color: #ffffff;
+  width: 77%;
+  float: right;
+}
+.profile-section .link ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 20px 0px;
+  margin: 0px;
+}
+.profile-section .link ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 20px 60px;
+}
+.profile-section .link ul li a:hover {
+  color: #259cf1;
+  border-bottom: 4px solid #259cf1;
+}
+
+.user-info-section {
+  margin-bottom: 30px;
+  top: 595px;
+  position: absolute;
+  right: 20px;
+  width: 75%;
+}
+.user-info-section .card-separator {
+  border-bottom: 4px solid #d8d7d7;
+  border-radius: 2px;
+  margin: 40px 0px;
+  height: 5px;
+}
+.user-info-section .card .card-head {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.user-info-section .card .card-head .heading {
+  font-size: 18px;
+  font-weight: 600;
+  color: gray;
+}
+.user-info-section .card .card-head .edit-icon {
+  background-color: #0e95e5;
+  padding: 15px 20px;
+}
+.user-info-section .card .card-head .edit-icon i {
+  color: #ffffff;
+}
+.user-info-section .card hr {
+  margin: 0 0 20px 0;
+}
+.user-info-section .card .user-info-form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px 25px 30px;
+  width: 500px;
+}
+.user-info-section .card .user-info-form .lable-input-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 10px 10px;
+}
+.user-info-section .card .user-info-form .lable-input-container label {
+  font-size: 16px;
+  font-weight: 600;
+  width: 50%;
+}
+.user-info-section .card .user-info-form .lable-input-container .basice-info,
+.user-info-section .card .user-info-form .lable-input-container .work-info {
+  border: none;
+  color: #919090;
+  float: right;
+  font-size: 16px;
+  font-weight: 600;
+  outline: none;
+  width: 50%;
+}
+.user-info-section .card .user-info-form .lable-input-container .basice-info-edit, .user-info-section .card .user-info-form .lable-input-container .work-info-edit {
+  background-color: #f5f5f5;
+  border: 1px solid #808080;
+  display: none;
+}
+.user-info-section .card .btn-container {
+  margin-bottom: 25px;
+  text-align: center;
+}
+.user-info-section .card .btn-container .submit-btn, .user-info-section .card .btn-container .cancle-btn {
+  display: none;
+}
+
+/*# sourceMappingURL=main-style.css.map */

@@ -1,0 +1,30 @@
+.card-container {
+  width: 20vw;
+  position: absolute;
+  top: 240px;
+}
+.card-container .card-text {
+  text-align: center;
+}
+.card-container .card-text .followers-info {
+  display: flex;
+  justify-content: space-between;
+}
+.card-container .card-text .followers-info div {
+  margin: 20px 10px 0 10px;
+}
+.card-container .card-text .followers-info div h3 {
+  color: #259cf1;
+}
+.card-container .card-text .card-btn {
+  background-color: #ffffff;
+  border: 1px solid #898787;
+  color: #747272;
+  margin-top: 25px;
+  padding: 5px 10px;
+}
+.card-container .card-text .card-btn .profile-icon {
+  margin-right: 5px;
+}
+
+/*# sourceMappingURL=profile-card.css.map */

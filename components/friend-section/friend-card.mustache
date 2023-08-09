@@ -1,0 +1,21 @@
+<section class="friend-card-container">
+    <ul class='friend-card-list'>
+        {{#arr}}
+        <li class='friend-card-list-item'>
+            <div class="card mb-3">
+                <div class="row g-0 img-text-container">
+                    <div class="col-md-4">
+                        <img src={{image}} class="img-fluid rounded-start friend-card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h3 class="card-title friend-card-title">{{name}}</h3>
+                            <p class="card-text friend-card-occupation">{{occupation}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        {{/arr}}
+    </ul>
+</section>

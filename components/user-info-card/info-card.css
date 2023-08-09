@@ -1,0 +1,71 @@
+.user-info-section {
+  margin-bottom: 30px;
+  top: 595px;
+  position: absolute;
+  right: 20px;
+  width: 75%;
+}
+.user-info-section .line {
+  border-bottom: 4px solid #d8d7d7;
+  border-radius: 2px;
+  margin: 40px 0px;
+  height: 5px;
+}
+.user-info-section .card .card-head {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.user-info-section .card .card-head .heading {
+  font-size: 20px;
+  font-weight: 600;
+  color: gray;
+}
+.user-info-section .card .card-head .edit-icon {
+  background-color: #0e95e5;
+  padding: 15px 20px;
+}
+.user-info-section .card .card-head .edit-icon i {
+  color: #ffffff;
+}
+.user-info-section .card hr {
+  margin: 0 0 20px 0;
+}
+.user-info-section .card form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 10px 30px 25px 30px;
+}
+.user-info-section .card form div {
+  margin: 10px 0 10px 10px;
+}
+.user-info-section .card form div label {
+  font-size: 20px;
+  font-weight: 600;
+}
+.user-info-section .card form div input {
+  float: right;
+  width: 50%;
+  color: #919090;
+  font-size: 18px;
+  font-weight: 600;
+  outline: none;
+  border: none;
+}
+.user-info-section .card .btn-container {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.user-info-section .card .btn-container .submit-btn {
+  border: 1px solid gray;
+  color: gray;
+  font-size: 19px;
+  background-color: white;
+  display: none;
+  margin: 20px 0 0 10px;
+  padding: 8px 40px;
+}
+
+/*# sourceMappingURL=info-card.css.map */

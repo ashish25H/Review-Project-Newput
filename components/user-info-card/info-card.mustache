@@ -1,0 +1,106 @@
+<section class="user-info-section">
+    <div class="card">
+        <div class="card-head">
+            <div class="heading">BASIC INFORMATION</div>
+            <div class="edit-icon" id="edit-btn"><i class="fa-sharp fa-solid fa-pen-to-square"></i></div>
+        </div>
+        <hr>
+
+        <form action="#" id="basic-info-form" class='user-info-form'>
+            <div class='lable-input-container'>
+                <label for="name">Full Name </label>
+                <input type="text" class="basice-info"   value="{{name}}" readonly>
+
+                <div>
+                 <input type="text" class="form-control basice-info-edit" id="name" name="name" value="{{name}}">
+                 </div>
+            </div>
+
+            <div class='lable-input-container'>
+                <label for="gender">Gender </label>
+                <input type="text" class="basice-info" value="{{gender}}" readonly>
+
+                <div>
+                 <input type="text" class="form-control basice-info-edit" id="gender" name="gender"  value="{{gender}}">
+                 </div>
+            </div>
+
+            <div class='lable-input-container'>
+                <label for="dob">Birth Date </label>
+                <input type="text" class="basice-info"   value="{{dob}}" readonly>
+
+                <div>
+                 <input type="text" class="form-control basice-info-edit" id="dob" name="DOB" value="{{dob}}">
+                 </div>
+            </div>
+
+            <div class='lable-input-container'>
+                <label for="martail-status">Marital Status </label>
+                <input type="text" class="basice-info"   value="{{maritalStatus}}" readonly>
+
+                <div>
+                 <input type="text" class="form-control basice-info-edit" id="martail-status" name="martail-status" value="{{maritalStatus}}">
+                 </div>
+            </div>
+
+            <div class='lable-input-container'>
+                <label for="location">Location </label>
+                <input type="text" class="basice-info"  value="{{location}}" readonly>
+
+                <div>
+                 <input type="text" class="form-control basice-info-edit" name="location" id="location" value="{{location}}">
+                 </div>
+            </div>
+        </form>
+
+        <div class="btn-container">
+            <button class="submit-btn btn btn-primary" id="submit-basice-info-btn">Submit</button>
+            <button type="button" class="cancle-btn btn btn-secondary" id='cancle-info-btn'>Cancle</button>
+        </div>
+    </div>
+
+    <div class="card-separator"></div>
+
+    <div class="card">
+        <div class="card-head">
+            <div class="heading">WORK</div>
+            <div class="edit-icon" id="work-info-edit"><i class="fa-sharp fa-solid fa-pen-to-square"></i></div>
+        </div>
+        <hr>
+
+        <form action="#" class='user-info-form'>
+            <div class='lable-input-container'>
+                <label for="occupation">Occupation </label>
+                <input type="text" name="name" class="work-info"  value="{{occupation}}" readonly>
+
+                <div>
+                 <input type="text" class="form-control work-info-edit" id="occupation" value="{{occupation}}">
+                 </div>
+            </div>
+
+            <div class='lable-input-container'>
+                <label for="skills">Skills </label>
+                <input type="text" class="work-info" name="skills" value="{{skills}}" readonly>
+
+                <div>
+                 <input type="text" class="form-control work-info-edit" id="skills" value="{{skills}}">
+                 </div>
+            </div>
+
+            <div class='lable-input-container'>
+                <label for="jobs">Jobs </label>
+                <input type="text" class="work-info" name="jobs" value="{{jobs}}" readonly>
+
+                <div>
+                 <input type="text" class="form-control work-info-edit" id="jobs" value="{{jobs}}">
+                 </div>
+            </div>
+
+        </form>
+
+        <div class="btn-container">
+            <button class="submit-btn btn btn-primary" id="submit-work-info-btn">Submit</button>
+             <button type="button" class="cancle-btn btn btn-secondary" id='cancle-work-info-btn'>Cancle</button>
+        </div>
+    </div>
+</section>

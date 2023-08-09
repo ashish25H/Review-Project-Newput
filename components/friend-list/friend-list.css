@@ -1,0 +1,31 @@
+.friend-list-card {
+  position: absolute;
+  top: 1364px;
+  width: 20vw;
+}
+.friend-list-card .friend-list-header {
+  align-items: center;
+  color: #a09e9e;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 20px;
+}
+.friend-list-card .friend-list-header .see-more-btn {
+  background-color: #259cf1;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 2px 8px;
+}
+.friend-list-card hr {
+  margin: 0px;
+}
+.friend-list-card .friends-images img {
+  width: 60px;
+  margin: 10px 0px 10px 10px;
+}
+
+/*# sourceMappingURL=friend-list.css.map */

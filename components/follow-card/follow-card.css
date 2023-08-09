@@ -1,0 +1,68 @@
+.follow-card {
+  position: absolute;
+  top: 855px;
+  width: 20vw;
+}
+.follow-card .header {
+  padding: 20px 0px 20px 20px;
+}
+.follow-card ul {
+  padding: 0px;
+}
+.follow-card ul li {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 18px 10px 0px 20px;
+}
+.follow-card ul li .img-name {
+  display: flex;
+}
+.follow-card ul li .img-and-point {
+  position: relative;
+  margin-right: 0px;
+}
+.follow-card ul li .img-and-point img {
+  width: 60px;
+  margin-right: 10px;
+}
+.follow-card ul li .img-and-point .point {
+  border-radius: 50%;
+  position: absolute;
+  left: 45px;
+  bottom: 3px;
+  width: 6px;
+  height: 6px;
+  background-color: red;
+}
+.follow-card ul li .img-and-point .active {
+  background-color: green;
+}
+.follow-card ul li .img-and-point .not-active {
+  background-color: red;
+}
+.follow-card ul li .name-and-occupation {
+  margin-right: 18px;
+}
+.follow-card ul li .name-and-occupation .name {
+  font-size: 18px;
+  font-weight: 500;
+}
+.follow-card ul li .name-and-occupation .occupation {
+  color: rgb(165, 164, 164);
+}
+.follow-card ul li .name-and-occupation p {
+  margin-bottom: 0px;
+}
+.follow-card ul li .follow-btn {
+  background-color: #259cf1;
+  border: none;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: small;
+  margin-right: 10px;
+  padding: 3px 8px;
+}
+
+/*# sourceMappingURL=follow-card.css.map */

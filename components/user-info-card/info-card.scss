@@ -1,0 +1,97 @@
+$card-separator-border : #d8d7d7;
+$edit-icon-bg-color : #0e95e5;
+$icon-color : #ffffff;
+$input-color : #919090;
+$submit-btn-border : #808080;
+$submit-btn-bg : #ffffff;
+$submit-btn-text : #808080;
+$bs-info-edit-bg-color : #f5f5f5;
+
+.user-info-section {
+    margin-bottom: 30px;
+    top: 595px;
+    position: absolute;
+    right: 20px;
+    width: 75%;
+
+    .card-separator {
+        border-bottom: 4px solid $card-separator-border;
+        border-radius: 2px;
+        margin: 40px 0px;
+        height: 5px;
+    }
+
+    .card {
+        .card-head {
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+
+            .heading {
+                font-size: 18px;
+                font-weight: 600;
+                color: gray;
+            }
+
+            .edit-icon {
+                background-color: $edit-icon-bg-color;
+                padding: 15px 20px;
+
+                i {
+                    color: $icon-color;
+                }
+
+            }
+        }
+
+        hr {
+            margin: 0 0 20px 0;
+        }
+
+        .user-info-form {
+            display: flex;
+            flex-direction: column;
+            padding: 10px 30px 25px 30px;
+            width: 500px;
+
+            .lable-input-container {
+                display: flex;
+                justify-content: space-between;
+                margin: 10px 0 10px 10px;
+
+                label {
+                    font-size: 16px;
+                    font-weight: 600;
+                    width: 50%;
+                }
+
+                .basice-info,
+                .work-info {
+                    border: none;
+                    color: $input-color;
+                    float: right;
+                    font-size: 16px;
+                    font-weight: 600;
+                    outline: none;
+                    width: 50%;
+                }
+
+                .basice-info-edit, .work-info-edit {
+                    background-color: $bs-info-edit-bg-color;
+                    border: 1px solid $submit-btn-border;
+                    display: none;
+                }
+            }
+        }
+
+        .btn-container {
+            margin-bottom: 25px;
+            text-align: center;
+
+            .submit-btn, .cancle-btn {
+                display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+$card-btn-bg-color : #ffffff;
+$card-btn-border-color : #898787;
+$card-btn-text-color : #747272;
+
+.card-container {
+    position: absolute;
+    top: 22vh;
+    width: 20vw;
+
+    .card-text {
+        text-align: center;
+
+        .followers-info {
+            display: flex;
+            justify-content: space-between;
+
+            div {
+                margin: 20px 10px 0 10px;
+
+                .number {
+                    color: #259cf1;
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .card-btn {
+            background-color: $card-btn-bg-color;
+            border: 1px solid $card-btn-border-color;
+            color: $card-btn-text-color;
+            margin-top: 25px;
+            padding: 5px 10px;
+
+            .profile-icon{
+                margin-right: 5px;
+            }
+        }
+    }
+}

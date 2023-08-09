@@ -1,0 +1,29 @@
+{
+  "name": "mustache-project",
+  "version": "1.0.0",
+  "description": "Guest User",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass css/main-style.scss css/main-style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashish25H/Mustache-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashish25H/Mustache-project/issues"
+  },
+  "homepage": "https://github.com/ashish25H/Mustache-project#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.1",
+    "deparam.js": "^2.1.4",
+    "http-server": "^14.1.1",
+    "jquery": "^3.7.0",
+    "jqueryrouter": "^2.2.8",
+    "sass": "^1.64.2"
+  }
+}

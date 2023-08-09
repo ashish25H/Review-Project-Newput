@@ -1,0 +1,83 @@
+.follow-card {
+    position: absolute;
+    top: 855px;
+    width: 20vw;
+
+    .header {
+        color: #808080;
+        padding: 20px 0px 20px 20px;
+        font-weight: 500;
+    }
+
+    .follow-card-list {
+        padding: 0px;
+
+        .follow-list-item {
+            .img-name {
+                display: flex;
+            }
+
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            padding: 18px 10px 0px 20px;
+
+            .img-and-point {
+                position: relative;
+                margin-right: 0px;
+
+                img {
+                    width: 60px;
+                    margin-right: 10px;
+                }
+
+                .point {
+                    border-radius: 50%;
+                    position: absolute;
+                    left: 45px;
+                    bottom: 3px;
+                    width: 6px;
+                    height: 6px;
+                    background-color: red;
+                }
+
+                .active {
+                    background-color: green;
+                }
+
+                .not-active {
+                    background-color: red;
+                }
+            }
+
+            .name-and-occupation {
+                margin-right: 18px;
+                // width: 35%;
+
+                .name {
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+
+                .occupation {
+                    color: #a5a4a4;
+                }
+
+                p {
+                    margin-bottom: 0px;
+                }
+            }
+
+            .follow-btn {
+                background-color: #259cf1;
+                border: none;
+                border-radius: 20px;
+                color: #ffffff;
+                font-size: small;
+                margin-right: 10px;
+                padding: 3px 8px;
+            }
+        }
+    }
+}

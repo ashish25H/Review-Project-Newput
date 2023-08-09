@@ -1,0 +1,172 @@
+$button-bg-color : #259cf1;
+$post-form-bg-color : #fcfcfc;
+$error-color : #ff0000;
+$post-line-bg-color : #dad8d8;
+$avatar-line-bg-color : #c8c6c6;
+$post-card-bg-color : #ffffff;
+$text-color : #abaaaa;
+$button-separator-color : #808080;
+
+.post-container {
+    left: 400px;
+    position: absolute;
+    top: 600px;
+    width: 75%;
+
+    .post-btn-container {
+        display: flex;
+        justify-content: end;
+        margin-bottom: 15px;
+
+        .post-btn {
+            background-color: $button-bg-color;
+            border: none;
+            border-radius: 10px;
+            color: #ffffff;
+            padding: 10px 20px;
+        }
+    }
+
+    .post-form {
+        background-color: $post-form-bg-color;
+        border-radius: 20px;
+        padding: 20px 40px;
+
+        .error {
+            color: $error-color;
+            margin-top: 5px;
+        }
+    }
+
+    .post-list {
+        .post-list-item {
+            list-style: none;
+        }
+    }
+
+    .post-card-container {
+        display: flex;
+        justify-content: flex-end;
+
+        .post-line {
+            background-color: $post-line-bg-color;
+            display: flex;
+            justify-content: flex-end;
+            left: 24px;
+            position: relative;
+            width: 5px;
+            z-index: -1;
+        }
+
+        .avatar-and-line {
+            align-items: center;
+            display: flex;
+            height: 50px;
+            padding-top: 63px;
+
+            .avatar {
+                margin-top: 0px;
+                width: 45px;
+            }
+
+            .avatar-line {
+                border-top: 3px solid $avatar-line-bg-color;
+                margin: 0 3px;
+                width: 20px;
+            }
+        }
+
+        .post-card {
+            background-color: $post-card-bg-color;
+            margin: 40px 0 33px 0;
+            width: 95%;
+
+            .post-heading {
+                display: flex;
+                justify-content: space-between;
+                padding: 20px 20px;
+
+                .user-details {
+                    .name {
+                        font-size: 18px;
+                    }
+
+                    .time {
+                        color: $text-color;
+                    }
+
+                    p {
+                        margin: 0px;
+                    }
+                }
+
+                .menu-icon {
+                    color: $text-color;
+                    font-size: 25px;
+                }
+            }
+
+            .card-image {
+                img {
+                    height: 500px;
+                    width: 100%;
+                }
+            }
+
+            .card-footer {
+                .title-description {
+                    padding: 20px 20px;
+
+                    .title {
+                        font-size: 20px;
+                        margin-bottom: 5px;
+                    }
+
+                    .description {
+                        color: $text-color;
+                        margin: 0;
+                    }
+                }
+
+                hr {
+                    margin: 0;
+                }
+
+                .footer-buttons {
+                    display: flex;
+                    padding: 20px 20px;
+
+                    .button-separator {
+                        border-right: 1px solid $button-separator-color;
+                        height: 30px;
+                        margin: 0 15px;
+                    }
+
+                    .like,
+                    .comments,
+                    .share {
+                        align-items: center;
+                        color: $button-separator-color;
+                        display: flex;
+                        font-size: 18px;
+                    }
+
+                    .like,
+                    .comments,
+                    .share {
+                        .button-icon {
+                            i {
+                                margin-right: 12px;
+                            }
+                        }
+
+                        p {
+                            margin-bottom: 0px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

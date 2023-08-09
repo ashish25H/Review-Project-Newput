@@ -1,0 +1,30 @@
+.profile-section {
+  width: 100%;
+}
+.profile-section .head-image img {
+  width: 100%;
+}
+.profile-section .link {
+  background-color: #ffffff;
+  width: 77%;
+  float: right;
+}
+.profile-section .link ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 20px 0px;
+  margin: 0px;
+}
+.profile-section .link ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 20px 60px;
+}
+.profile-section .link ul li a:hover {
+  color: #259cf1;
+  border-bottom: 4px solid #259cf1;
+}
+
+/*# sourceMappingURL=profile-style.css.map */

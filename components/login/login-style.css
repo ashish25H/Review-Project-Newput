@@ -1,0 +1,37 @@
+.login-form-container {
+  /* width: 30vw; */
+  align-items: center;
+  background-color: aquamarine;
+  height: 100vh;
+  display: flex;
+  scroll-behavior: auto;
+  justify-content: center;
+}
+.login-form-container .login-form {
+  background-color: bisque;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+.login-form-container .login-form #exampleInputEmail1-error {
+  color: red;
+  margin-top: 5px;
+}
+.login-form-container .login-form #exampleInputPassword1-error {
+  color: red;
+  margin-top: 5px;
+}
+.login-form-container .login-form .form-btn {
+  text-align: center;
+}
+.login-form-container .create-account-container {
+  display: none;
+  background-color: bisque;
+  padding: 30px 40px;
+  border-radius: 10px;
+}
+.login-form-container .create-account-container .error {
+  color: red;
+  margin-top: 5px;
+}
+
+/*# sourceMappingURL=login-style.css.map */

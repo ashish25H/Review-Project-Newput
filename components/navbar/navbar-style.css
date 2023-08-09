@@ -1,0 +1,57 @@
+.navbar {
+  align-items: center;
+  background-color: #0c95e5;
+  color: #ffffff;
+  display: flex;
+  /* height: 80px; */
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.navbar .logo {
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: 80px;
+  margin-bottom: 10px;
+}
+
+.navbar .logo sup {
+  top: -2em;
+  font-size: 14px;
+  right: 1em;
+}
+
+.navbar .nav-icons {
+  align-items: center;
+  display: flex;
+  padding-top: 10px;
+}
+
+.navbar .nav-icons li {
+  list-style: none;
+}
+
+.navbar .nav-icons .icon {
+  font-size: 25px;
+}
+
+.navbar .nav-icons .icon-container {
+  margin: 0 20px;
+}
+
+.navbar .nav-icons .person-details {
+  align-items: center;
+  display: flex;
+}
+
+.navbar .nav-icons .person-details li img {
+  width: 50px;
+}
+
+.navbar .nav-icons .person-details li {
+  margin-right: 10px;
+}
+
+
+
+/*# sourceMappingURL=navbar-style.css.map */

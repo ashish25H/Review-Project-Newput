@@ -1,0 +1,14 @@
+{
+    "name": "Guest",
+    "email": "guest@gmail.com",
+    "company": "newput",
+    "age": 20,
+    "occupation": "Software Engineer",
+    "dob": "20/08/1998",
+    "gender": "Male",
+    "password": "guest25#G",
+    "maritalStatus": "Unmarried",
+    "location": "India",
+    "skills": "JavaScript",
+    "jobs": 1
+}

@@ -1,0 +1,22 @@
+<div class="card follow-card" title='follow-card'>
+    <div class="card-header header">
+        WHO TO FOLLOW
+    </div>
+    <ul class="follow-card-list">
+        {{#arr}}
+        <li class="follow-list-item">
+            <div class="img-name">
+                <div class='img-and-point'>
+                    <img src="{{image}}" alt="avatar-1">
+                    <div class='point {{#isActive}}active{{/isActive}}'></div>
+                </div>
+                <div class="name-and-occupation">
+                    <p class="name">{{name}}</p>
+                    <p class="occupation">{{occupation}}</p>
+                </div>
+            </div>
+            <button id="{{image}}" data-name={{name}} data-occupation={{occupation}} class="follow-btn">Follow</button>
+        </li>
+        {{/arr}}
+    </ul>
+</div>

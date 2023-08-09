@@ -1,0 +1,35 @@
+.friend-card-container {
+  position: absolute;
+  left: 360px;
+  top: 600px;
+  width: 77%;
+}
+.friend-card-container ul {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 40px;
+}
+.friend-card-container ul li {
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.friend-card-container ul li .img-text-container {
+  display: flex;
+  align-items: center;
+}
+.friend-card-container ul li .img-text-container .friend-card-img {
+  padding: 10px;
+}
+.friend-card-container ul li .img-text-container .friend-card-title {
+  font-size: 30px;
+  font-weight: 600;
+}
+.friend-card-container ul li .img-text-container .friend-card-occupation {
+  font-size: 18px;
+  color: rgb(157, 156, 156);
+}
+
+/*# sourceMappingURL=friend-card.css.map */

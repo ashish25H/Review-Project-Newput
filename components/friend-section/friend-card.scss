@@ -1,0 +1,41 @@
+.friend-card-container {
+    // display: grid;
+    position: absolute;
+    left: 360px;
+    top: 600px;
+    width: 77%;
+
+    .friend-card-list {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 40px;
+
+        .friend-card-list-item {
+            list-style: none;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            justify-items: center;
+
+            .img-text-container {
+                display: flex;
+                align-items: center;
+
+                .friend-card-img {
+                    padding: 10px;
+                    width: 135px;
+                }
+
+                .friend-card-title {
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+
+                .friend-card-occupation {
+                    font-size: 18px;
+                    color: rgb(157, 156, 156);
+                }
+            }
+        }
+    }
+}

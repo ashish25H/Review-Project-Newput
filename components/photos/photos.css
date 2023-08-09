@@ -1,0 +1,28 @@
+.photos-section {
+  position: absolute;
+  top: 600px;
+  left: 400px;
+  width: 75%;
+}
+.photos-section .add-photo-btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 40px;
+}
+.photos-section ul {
+  display: grid;
+  background-color: #ffffff;
+  grid-template-columns: repeat(4, auto);
+  padding: 20px;
+  margin: 0px;
+}
+.photos-section ul li {
+  list-style: none;
+}
+.photos-section ul li img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 2px;
+}
+
+/*# sourceMappingURL=photos.css.map */

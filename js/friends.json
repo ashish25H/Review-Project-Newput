@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Tony",
+        "occupation": "Software Developer",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRocI51Zm4Trk_dBVn317rFhgrQ-i9U4Di9zwaQrQnTkoS_KOqz",
+        "isActive": true
+    },
+    {
+        "name": "Thor",
+        "occupation": "Graphic Designer",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRocI51Zm4Trk_dBVn317rFhgrQ-i9U4Di9zwaQrQnTkoS_KOqz",
+        "isActive": false
+    },
+    {
+        "name": "Chloe",
+        "occupation": "Veterinarian",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRocI51Zm4Trk_dBVn317rFhgrQ-i9U4Di9zwaQrQnTkoS_KOqz",
+        "isActive": true
+    },
+    {
+        "name": "Daniel",
+        "occupation": "Musician",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRocI51Zm4Trk_dBVn317rFhgrQ-i9U4Di9zwaQrQnTkoS_KOqz",
+        "isActive": false
+    },
+    {
+        "name": "Mr.Bean",
+        "occupation": "Chef",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRocI51Zm4Trk_dBVn317rFhgrQ-i9U4Di9zwaQrQnTkoS_KOqz",
+        "isActive": true
+    }
+]
