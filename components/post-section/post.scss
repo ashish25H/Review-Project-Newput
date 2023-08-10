@@ -170,3 +170,57 @@ $button-separator-color : #808080;
         }
     }
 }
+
+@media (min-width: 300px) and (max-width: 767px) {
+    .post-container {
+        position: absolute;
+        top: 45vh;
+        left: -5vw;
+        width: 100%;
+    }
+
+    .post-container .post-card-container .post-card .post-heading .user-details .name {
+        font-size: 12px;
+    }
+
+    .post-container .post-card-container .post-card .post-heading .user-details .time {
+        color: #abaaaa;
+        font-size: 10px;
+    }
+
+    .post-container .post-card-container .post-card .card-image img {
+        height: 18vh;
+        width: 100%;
+    }
+
+    .post-container .post-card-container .post-card .card-footer .footer-buttons .like p, .post-container .post-card-container .post-card .card-footer .footer-buttons .comments p, .post-container .post-card-container .post-card .card-footer .footer-buttons .share p {
+        margin-bottom: 0px;
+        font-size: 10px;
+    }
+
+    .post-container .post-card-container .post-card .card-footer .title-description .title {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .post-container .post-card-container .post-card .post-heading {
+        padding: 10px 10px;
+    }
+
+    .post-container .post-card-container .post-card .card-footer .title-description {
+        padding: 10px 10px;
+    }
+
+    .post-container .post-card-container .post-card .card-footer .footer-buttons {
+        padding: 10px 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1100px) {
+    .post-container {
+        left: 22vw;
+        position: absolute;
+        top: 30vh;
+        width: 75%;
+    }
+}

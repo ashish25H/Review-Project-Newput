@@ -10,7 +10,7 @@
         background-color: #fcfcfc;
         border-radius: 10px;
         padding: 30px 40px;
-        width: 25vw;
+        width: 30vw;
 
         #input-email-error {
             color: red;
@@ -30,5 +30,23 @@
                 border: none;
             }
         }
+    }
+}
+
+@media (min-width:768px) and (max-width:1200px) {
+    .login-form-container .login-form {
+        width: 50vw;
+    }
+}
+
+@media (max-width:767px) {
+    .login-form-container .login-form {
+        width: 70vw;
+    }
+}
+
+@media (min-width:1800px) {
+    .login-form-container .login-form {
+        width: 50vw;
     }
 }

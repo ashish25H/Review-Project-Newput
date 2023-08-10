@@ -12,7 +12,7 @@ body #body .page-heading {
 
 .follow-card {
   position: absolute;
-  top: 855px;
+  top: 87vh;
   width: 20vw;
 }
 .follow-card .header {
@@ -79,6 +79,41 @@ body #body .page-heading {
   padding: 3px 8px;
 }
 
+@media (min-width: 300px) and (max-width: 767px) {
+  .follow-card {
+    margin: 25px 0;
+    position: static;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1300px) {
+  .follow-card {
+    position: absolute;
+    top: 72vh;
+    width: 20vw;
+  }
+  .follow-card .follow-card-list .follow-list-item {
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 18px 10px 0px 20px;
+  }
+  .follow-card .follow-card-list .follow-list-item .name-and-occupation .name {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .follow-card .follow-card-list .follow-list-item .name-and-occupation .occupation {
+    font-size: 10px;
+  }
+  .follow-card .follow-card-list .follow-list-item .follow-btn {
+    margin-top: 10px;
+  }
+  .follow-card .follow-card-list .follow-list-item .img-and-point img {
+    width: 50px;
+    margin-right: 10px;
+  }
+}
 .friend-card-container {
   position: absolute;
   left: 360px;
@@ -91,11 +126,11 @@ body #body .page-heading {
   gap: 40px;
 }
 .friend-card-container .friend-card-list .friend-card-list-item {
-  list-style: none;
-  width: 100%;
-  justify-content: center;
   align-items: center;
+  list-style: none;
+  justify-content: center;
   justify-items: center;
+  width: 100%;
 }
 .friend-card-container .friend-card-list .friend-card-list-item .img-text-container {
   display: flex;
@@ -114,9 +149,66 @@ body #body .page-heading {
   color: rgb(157, 156, 156);
 }
 
+@media (min-width: 300px) and (max-width: 767px) {
+  .friend-card-container {
+    position: absolute;
+    left: 1vw;
+    top: 35vh;
+    width: 90%;
+  }
+  .friend-card-container .friend-card-list {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    gap: 40px;
+    justify-content: center;
+  }
+  .friend-card-container .friend-card-list .friend-card-list-item {
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    justify-items: center;
+  }
+  .friend-card-container .friend-card-list .friend-card-list-item .img-text-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .friend-card-container .friend-card-list .friend-card-list-item .img-text-container .friend-card-img {
+    padding: 10px;
+    width: 100px;
+  }
+  .friend-card-container .friend-card-list .friend-card-list-item .img-text-container .friend-card-title {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .friend-card-container .friend-card-list .friend-card-list-item .img-text-container .friend-card-occupation {
+    font-size: 12px;
+    color: #9d9c9c;
+  }
+  .friend-card-container .friend-card-list .friend-card-list-item .img-text-container .friend-card-img {
+    padding: 10px;
+    width: 100px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1300px) {
+  .friend-card-container {
+    position: absolute;
+    left: 21vw;
+    top: 30vh;
+    width: 77%;
+  }
+  .friend-card-container .friend-card-list .friend-card-list-item .img-text-container .friend-card-title {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .friend-card-container .friend-card-list .friend-card-list-item .img-text-container .friend-card-occupation {
+    font-size: 12px;
+    color: rgb(157, 156, 156);
+  }
+}
 .friend-list-card {
   position: absolute;
-  top: 1364px;
+  top: 140vh;
   width: 20vw;
 }
 .friend-list-card .friend-list-header {
@@ -143,6 +235,29 @@ body #body .page-heading {
   width: 60px;
   margin: 10px 0px 10px 10px;
 }
+@media (min-width: 300px) and (max-width: 767px) {
+  .friend-list-card {
+    margin: 25px 0;
+    position: static;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1300px) {
+  .friend-list-card {
+    position: absolute;
+    top: 127vh;
+    width: 20vw;
+  }
+  .friend-list-card .friend-list-header div {
+    font-size: 12px;
+  }
+  .friend-list-card .friend-list-header .see-more-btn {
+    font-size: 8px;
+  }
+  .friend-list-card .friends-images img {
+    width: 50px;
+  }
+}
 .login-form-container {
   align-items: center;
   background-color: #259cf1;
@@ -155,7 +270,7 @@ body #body .page-heading {
   background-color: #fcfcfc;
   border-radius: 10px;
   padding: 30px 40px;
-  width: 25vw;
+  width: 30vw;
 }
 .login-form-container .login-form #input-email-error {
   color: red;
@@ -173,6 +288,21 @@ body #body .page-heading {
   border: none;
 }
 
+@media (min-width: 768px) and (max-width: 1200px) {
+  .login-form-container .login-form {
+    width: 50vw;
+  }
+}
+@media (max-width: 767px) {
+  .login-form-container .login-form {
+    width: 70vw;
+  }
+}
+@media (min-width: 1800px) {
+  .login-form-container .login-form {
+    width: 50vw;
+  }
+}
 .navbar {
   align-items: center;
   background-color: #0c95e5;
@@ -233,6 +363,21 @@ body #body .page-heading {
   right: 1vw;
 }
 
+@media (min-width: 300px) and (max-width: 768px) {
+  .nav-icon {
+    display: none;
+  }
+  .navbar .logo {
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  .navbar .nav-icons .person-details li img {
+    width: 40px;
+  }
+}
 
 .photos-section {
   position: absolute;
@@ -265,6 +410,30 @@ body #body .page-heading {
   margin-bottom: 2px;
 }
 
+@media (min-width: 300px) and (max-width: 767px) {
+  .photos-section {
+    position: absolute;
+    top: 35vh;
+    left: 10vw;
+    width: 85%;
+  }
+}
+@media (min-width: 768px) and (max-width: 860px) {
+  .photos-section {
+    position: absolute;
+    top: 33vh;
+    left: 23vw;
+    width: 75%;
+  }
+}
+@media (min-width: 861px) and (max-width: 1300px) {
+  .photos-section {
+    position: absolute;
+    top: 37vh;
+    left: 23vw;
+    width: 75%;
+  }
+}
 .post-container {
   left: 400px;
   position: absolute;
@@ -392,6 +561,50 @@ body #body .page-heading {
   margin-bottom: 0px;
 }
 
+@media (min-width: 300px) and (max-width: 767px) {
+  .post-container {
+    position: absolute;
+    top: 45vh;
+    left: -5vw;
+    width: 100%;
+  }
+  .post-container .post-card-container .post-card .post-heading .user-details .name {
+    font-size: 12px;
+  }
+  .post-container .post-card-container .post-card .post-heading .user-details .time {
+    color: #abaaaa;
+    font-size: 10px;
+  }
+  .post-container .post-card-container .post-card .card-image img {
+    height: 18vh;
+    width: 100%;
+  }
+  .post-container .post-card-container .post-card .card-footer .footer-buttons .like p, .post-container .post-card-container .post-card .card-footer .footer-buttons .comments p, .post-container .post-card-container .post-card .card-footer .footer-buttons .share p {
+    margin-bottom: 0px;
+    font-size: 10px;
+  }
+  .post-container .post-card-container .post-card .card-footer .title-description .title {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .post-container .post-card-container .post-card .post-heading {
+    padding: 10px 10px;
+  }
+  .post-container .post-card-container .post-card .card-footer .title-description {
+    padding: 10px 10px;
+  }
+  .post-container .post-card-container .post-card .card-footer .footer-buttons {
+    padding: 10px 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1100px) {
+  .post-container {
+    left: 22vw;
+    position: absolute;
+    top: 30vh;
+    width: 75%;
+  }
+}
 .card-container {
   position: absolute;
   top: 22vh;
@@ -422,11 +635,47 @@ body #body .page-heading {
   margin-right: 5px;
 }
 
+@media (min-width: 300px) and (max-width: 767px) {
+  .card-container {
+    margin: 25px 0;
+    position: static;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1400px) {
+  .card-container {
+    position: absolute;
+    top: 16vh;
+    width: 20vw;
+  }
+  .card-container .card-text {
+    padding: 10px 10px 10px 10px;
+  }
+  .card-container .card-text .followers-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .card-container .card-text .followers-info div .number {
+    font-size: 14px;
+  }
+  .card-container .card-text .card-btn {
+    margin-top: 10px;
+    padding: 5px 8px;
+    font-size: 12px;
+  }
+}
 .profile-section {
   width: 100%;
 }
 .profile-section .head-image img {
   width: 100%;
+}
+.profile-section .head-image .menu-icon {
+  display: none;
+}
+.profile-section .head-image .menu-icon .x-mark {
+  display: none;
 }
 .profile-section .link {
   background-color: #ffffff;
@@ -451,6 +700,41 @@ body #body .page-heading {
   border-bottom: 4px solid #259cf1;
 }
 
+@media (min-width: 300px) and (max-width: 767px) {
+  .profile-section .head-image img {
+    height: 150px;
+  }
+  .profile-section .head-image .menu-icon {
+    display: block;
+    position: absolute;
+    top: 10vh;
+    left: 88vw;
+  }
+  .profile-section .head-image .menu-icon i {
+    color: #ffffff;
+    font-size: 20px;
+  }
+  .profile-section .link {
+    display: none;
+    width: 100%;
+  }
+  .profile-section .link ul {
+    padding-bottom: 20px;
+  }
+  .profile-section .link ul li a {
+    font-size: 14px;
+    padding: 20px 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .profile-section .head-image .link {
+    width: 30vw;
+  }
+  .profile-section .link ul li a {
+    font-size: 14px;
+    padding: 15px 30px;
+  }
+}
 .user-info-section {
   margin-bottom: 30px;
   top: 595px;
@@ -511,7 +795,8 @@ body #body .page-heading {
   outline: none;
   width: 50%;
 }
-.user-info-section .card .user-info-form .lable-input-container .basice-info-edit, .user-info-section .card .user-info-form .lable-input-container .work-info-edit {
+.user-info-section .card .user-info-form .lable-input-container .basice-info-edit,
+.user-info-section .card .user-info-form .lable-input-container .work-info-edit {
   background-color: #f5f5f5;
   border: 1px solid #808080;
   display: none;
@@ -520,8 +805,52 @@ body #body .page-heading {
   margin-bottom: 25px;
   text-align: center;
 }
-.user-info-section .card .btn-container .submit-btn, .user-info-section .card .btn-container .cancle-btn {
+.user-info-section .card .btn-container .submit-btn,
+.user-info-section .card .btn-container .cancle-btn {
   display: none;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .user-info-section {
+    margin: 20px 0 30px 0;
+    position: static;
+    width: 100%;
+  }
+  .user-info-section .card .user-info-form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px 25px 30px;
+    width: auto;
+  }
+  .user-info-section .card .user-info-form .lable-input-container label {
+    font-size: 13px;
+    font-weight: 600;
+    width: 50%;
+  }
+  .user-info-section .card .user-info-form .lable-input-container .basice-info,
+  .user-info-section .card .user-info-form .lable-input-container .work-info {
+    border: none;
+    color: #919090;
+    float: right;
+    font-size: 13px;
+    font-weight: 600;
+    outline: none;
+    width: 50%;
+  }
+  .user-info-section .card .user-info-form .lable-input-container .basice-info-edit, .user-info-section .card .user-info-form .lable-input-container .work-info-edit {
+    background-color: #f5f5f5;
+    border: 1px solid #808080;
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .user-info-section {
+    margin-bottom: 15px;
+    top: 35vh;
+    position: absolute;
+    right: 20px;
+    width: 74vw;
+  }
 }
 
 /*# sourceMappingURL=main-style.css.map */

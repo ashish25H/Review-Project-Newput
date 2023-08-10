@@ -1,6 +1,6 @@
 .friend-list-card{
     position: absolute;
-    top: 1364px;
+    top: 140vh;
     width: 20vw;
 
     .friend-list-header{
@@ -34,6 +34,37 @@
 
         .extra-img{
             // display: none;
+        }
+    }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+    .friend-list-card{
+        margin: 25px 0;
+        position: static;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+    .friend-list-card {
+        position: absolute;
+        top: 127vh;
+        width: 20vw;
+
+        .friend-list-header {
+            div {
+                font-size: 12px;
+            }
+            .see-more-btn {
+                font-size: 8px;
+            }
+        }
+
+        .friends-images {
+            img {
+                width: 50px;
+            }
         }
     }
 }

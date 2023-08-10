@@ -58,6 +58,23 @@
   right: 1vw;
 }
 
+@media (min-width:300px) and (max-width: 768px) {
+  .nav-icon {
+    display: none;
+  }
+
+  .navbar .logo {
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+
+  .navbar .nav-icons .person-details li img {
+    width: 40px;
+  }
+}
 
 
 /*# sourceMappingURL=navbar-style.scss.map */

@@ -22,6 +22,8 @@ function durationOfPost() {
     return days + " days ago";
 };
 
+
+
 $('#post-form').validate({
     rules: {
         ['img-url']: {

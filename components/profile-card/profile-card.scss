@@ -37,3 +37,37 @@ $card-btn-text-color : #747272;
         }
     }
 }
+
+@media (min-width:300px) and (max-width: 767px) {
+    .card-container {
+        margin: 25px 0;
+        position: static;
+        width: 100%;
+    }
+}
+
+@media (min-width:768px) and (max-width:1400px) {
+    .card-container {
+        position: absolute;
+        top: 16vh;
+        width: 20vw;
+
+        .card-text{
+            padding: 10px 10px 10px 10px;
+            .followers-info {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                div .number {
+                    font-size: 14px;
+                }
+            }
+            .card-btn {
+                margin-top: 10px;
+                padding: 5px 8px;
+                font-size: 12px;
+            }
+        }
+    }
+}

@@ -1,38 +1,100 @@
-.profile-section{
+.profile-section {
     width: 100%;
 
-    .head-image{
+    .head-image {
 
-        img{
+        img {
             width: 100%;
+        }
+
+        .menu-icon {
+            display: none;
+
+            .x-mark {
+                display: none;
+            }
         }
     }
 
-    .link{
+    .link {
         background-color: #ffffff;
         width: 77%;
         float: right;
 
-        ul{
+        ul {
             display: flex;
             justify-content: space-evenly;
             list-style: none;
             padding: 20px 0px;
             margin: 0px;
 
-            li{
-                a{
+            li {
+                a {
                     text-decoration: none;
                     color: black;
                     font-size: 20px;
                     padding: 20px 60px;
                 }
-                a:hover{
+
+                a:hover {
                     color: #259cf1;
                     border-bottom: 4px solid #259cf1;
-                    
+
                 }
             }
         }
+    }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+    .profile-section {
+        .head-image {
+            img {
+                height: 150px;
+            }
+
+            .menu-icon {
+                display: block;
+                position: absolute;
+                top: 10vh;
+                left: 88vw;
+
+                i {
+                    color: #ffffff;
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .link {
+            display: none;
+            width: 100%;
+
+            ul {
+                padding-bottom: 20px;
+
+                li {
+                    a {
+                        font-size: 14px;
+                        padding: 20px 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width:1200px) {
+    .profile-section {
+        .head-image {
+            .link {
+                width: 30vw;
+            }
+        }
+    }
+
+    .profile-section .link ul li a {
+        font-size: 14px;
+        padding: 15px 30px;
     }
 }

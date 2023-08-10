@@ -1,6 +1,6 @@
 .follow-card {
     position: absolute;
-    top: 855px;
+    top: 87vh;
     width: 20vw;
 
     .header {
@@ -77,6 +77,53 @@
                 font-size: small;
                 margin-right: 10px;
                 padding: 3px 8px;
+            }
+        }
+    }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+    .follow-card {
+        margin: 25px 0;
+        position: static;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+    .follow-card {
+        position: absolute;
+        top: 72vh;
+        width: 20vw;
+
+        .follow-card-list {
+            .follow-list-item {
+                align-items: start;
+                display: flex;
+                flex-direction: column;
+                // justify-content: space-between;
+                list-style: none;
+                padding: 18px 10px 0px 20px;
+
+                .name-and-occupation {
+                    .name {
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+
+                    .occupation {
+                        font-size: 10px;
+                    }
+                }
+
+                .follow-btn {
+                    margin-top: 10px;
+                }
+
+                .img-and-point img {
+                    width: 50px;
+                    margin-right: 10px;
+                }
             }
         }
     }

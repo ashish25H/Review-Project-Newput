@@ -11,11 +11,11 @@
         gap: 40px;
 
         .friend-card-list-item {
-            list-style: none;
-            width: 100%;
-            justify-content: center;
             align-items: center;
+            list-style: none;
+            justify-content: center;
             justify-items: center;
+            width: 100%;
 
             .img-text-container {
                 display: flex;
@@ -37,5 +37,77 @@
                 }
             }
         }
+    }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+    .friend-card-container {
+        position: absolute;
+        left: 1vw;
+        top: 35vh;
+        width: 90%;
+
+        .friend-card-list {
+            display: grid;
+            grid-template-columns: repeat(1, auto);
+            gap: 40px;
+            justify-content: center;
+
+            .friend-card-list-item {
+                align-items: center;
+                list-style: none;
+                justify-content: center;
+                justify-items: center;
+                // width: 100%;
+
+                .img-text-container {
+                    display: flex;
+                    align-items: center;
+                    // background-color: black;
+                    text-align: center;
+
+                    .friend-card-img {
+                        padding: 10px;
+                        width: 100px;
+                    }
+
+                    .friend-card-title {
+                        font-size: 12px;
+                        font-weight: 500;
+                    }
+
+                    .friend-card-occupation {
+                        font-size: 12px;
+                        color: #9d9c9c;
+                    }
+                }
+            }
+
+
+        }
+    }
+
+    .friend-card-container .friend-card-list .friend-card-list-item .img-text-container .friend-card-img {
+        padding: 10px;
+        width: 100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+    .friend-card-container {
+        position: absolute;
+        left: 21vw;
+        top: 30vh;
+        width: 77%;
+    }
+
+    .friend-card-container .friend-card-list .friend-card-list-item .img-text-container .friend-card-title {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .friend-card-container .friend-card-list .friend-card-list-item .img-text-container .friend-card-occupation {
+        font-size: 12px;
+        color: rgb(157, 156, 156);
     }
 }
